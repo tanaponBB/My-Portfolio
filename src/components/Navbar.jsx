@@ -46,25 +46,25 @@ const Navbar = () => {
         {/* SC ICON */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600' >
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-400 hover:bg-blue-600 shadow-lg hover:shadow-cyan-500/50 opacity-50 hover:opacity-100' >
                     <a className='flex justify-between items-center w-full text-[#F6F6F6]'
                     href="/">
                         FaceBook <FaFacebook size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#feda75] via-[#fa7e1e] to-[#d62976]' >
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-400 hover:bg-gradient-to-r from-[#feda75] via-[#fa7e1e] to-[#d62976] shadow-lg hover:shadow-[#feda75]/50 opacity-50 hover:opacity-100' >
                     <a className='flex justify-between items-center w-full text-[#F6F6F6]'
                     href="/">
                         Instagram <FaInstagram size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DB4437]' >
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-400 hover:bg-[#DB4437] shadow-lg hover:shadow-[#DB4437]/50 opacity-50 hover:opacity-100' >
                     <a className='flex justify-between items-center w-full text-[#F6F6F6]'
                     href="/">
                         E-mail <HiOutlineMail size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#113E21]' >
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-400 hover:bg-[#1c6435] shadow-lg hover:shadow-[#1c6435]/50 opacity-50 hover:opacity-100' >
                     <a className='flex justify-between items-center w-full text-[#F6F6F6]'
                     href="/">
                         Resume <BsFillPersonLinesFill size={30}/>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-
+import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-gradient-to-t from-[#111111] via-[#1f1f1f] to-[#414141] '>
@@ -18,14 +18,19 @@ const Home = () => {
         Has experience in cooperative education training with Yes Web Design Studio in the position of a wordpress developer.
         </p>
         <div>
+        <Link to="work" smooth={true} duration={500}>
             <button 
             className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#d39935] hover:border-[#ffc35b]'>
-              View Work
+              View Work Experience
             <span className='group-hover:rotate-90 duration-300'>
+
             <HiArrowNarrowRight className='ml-3'/>
-            </span>
+
             
+            </span>
+
             </button>
+            </Link>
             </div>
         </div>
         </div>
